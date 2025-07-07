@@ -1,0 +1,59 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Go build/output directories
+/bin/
+/build/
+/dist/
+
+# Go binaries and test executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Go coverage and profiling files
+*.out
+coverage.*
+
+# Go module/vendor cache (if you vendor dependencies)
+/pkg/
+/vendor/
+
+# Generated files
+*.gen.go
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Docker artifacts
+*.tar
+# Override files you don't want committed
+docker-compose.override.yml
+
+# Environment files
+.env
+.env.*
+
+# Node/npm (in case you add front-end tooling later)
+node_modules/
+
+# Misc
+*.bak
